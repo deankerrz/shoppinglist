@@ -39,6 +39,7 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^2.0.7",
     "customize-cra": "^1.0.0",
+    "prettier": "2.6.2",
     "react-app-rewired": "^2.2.1"
   }
 }
