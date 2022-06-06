@@ -1,20 +1,15 @@
 import { Header } from './Header'
 import { Footer } from './Footer'
-import { ListItem } from './ListItem'
-import { List } from './List'
+import { ItemsList } from '../features/list/List.js'
 
 function App() {
   return (
     <div className="App">
       <Header>shopping with friends :)</Header>
       <main>
-        <List>
-          <ListItem>Bacon</ListItem>
-          <ListItem>Kale</ListItem>
-          <ListItem>Quinoa</ListItem>
-        </List>
+        <ItemsList />
       </main>
-      <Footer>made with love by dean</Footer>
+      <Footer>made by dean 💖</Footer>
     </div>
   )
 }
